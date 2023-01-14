@@ -1,0 +1,196 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+*{
+    font-family: 'Playfair Display', serif;
+    margin:0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.App{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color:rgb(143, 212, 177, 0.7)
+}
+
+button{
+    text-decoration: none;
+}
+
+nav{
+    height: 80px;
+    background-color: rgba(212, 147, 143, 1); ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add{
+        background-color:rgba(212, 147, 143, 1);
+        border: none;
+        color: white;
+        height:40px;
+        padding: 0 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 20px 2px;
+        cursor: pointer;
+ }
+
+ .add:hover{
+    transition: 1s;
+    height:60px;
+    transform: translateY(-8px);
+    background-color: rgb(231, 116, 110);
+ }
+
+
+nav h1{
+    font-family: 'Playfair Display SC', serif;
+    margin:0;
+    padding:25px 25px 25px 100px;
+    color: #fff;
+    font-weight: 300px;
+}
+
+.photos{
+    padding:20px;
+    height: 90%;
+    position: inherit;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo{
+    height: 100%;
+    flex:1;
+    display: flex;
+    position: inherit;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    background-color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+img:hover{
+    transition: 1s;
+    z-index: -1;
+}
+
+
+.details{
+    border:20px;
+    color:#fff;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0%;
+    display: flex;  
+    flex-direction: column;
+}
+
+
+.details:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 100%;
+    transition: 1s;
+}
+
+.details h2{
+    padding:10px;
+}
+
+.update{
+    background-color:rgb(143, 212, 177, 0.7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+    box-shadow: 0.5px 1.5px rgba(212, 147, 143, 0.747);
+}
+
+.delete{
+    background-color:rgb(143, 212, 177, 0.7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+    box-shadow: 0.5px 1.5px rgba(212, 147, 143, 0.747);
+    
+}
+
+.form{
+    text-align: center;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin:40px 120px 0 120px;
+    width: 80%;
+    height: 90%;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.form h1{
+    font-family: montserrat, arial, verdana;
+    padding:30px;
+    margin-bottom: 30px;
+    color: rgb(143, 212, 177);
+}
+input{
+    font-size: inherit;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-left: 255px;;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+.addbutton{
+    margin-top: 20px;
+    background-color:rgba(212, 147, 143, 1);
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
