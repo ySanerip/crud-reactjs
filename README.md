@@ -7,3 +7,13 @@ For the front-end development I used JavaScript, with ReactJS and NodeJS, and th
 
 I intend with this project to solidify my knowledge of these technologies to be able to build and cooperate in projects as a full-stack developer.
 
+###   Tech stacks behind.
+
+[React](https://reactjs.org/)- React is a JavaScript library for building user interfaces.  
+[React Router](https://www.npmjs.com/package/react-router-dom) - Declarative routing for React.  
+[Axios](https://www.npmjs.com/package/axios) - Promise-based HTTP client for the browser and node.js.  
+[MySQL](https://www.npmjs.com/package/mysql) - A node.js module for creating and maintaining connections.  
+[CORS](https://www.npmjs.com/package/cors) - CORS is a node.js package providing a Connect/Express middleware.  
+
+
+
